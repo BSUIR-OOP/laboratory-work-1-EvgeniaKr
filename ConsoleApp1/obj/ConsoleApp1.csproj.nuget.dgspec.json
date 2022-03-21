@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MyWork\\oop\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\evgen\\Source\\Repos\\laboratory-work-1-EvgeniaKr\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\MyWork\\oop\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\evgen\\Source\\Repos\\laboratory-work-1-EvgeniaKr\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyWork\\oop\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\evgen\\Source\\Repos\\laboratory-work-1-EvgeniaKr\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\MyWork\\oop\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\Users\\evgen\\Source\\Repos\\laboratory-work-1-EvgeniaKr\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\evgen\\.nuget\\packages\\",
-        "outputPath": "C:\\MyWork\\oop\\ConsoleApp1\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\evgen\\Source\\Repos\\laboratory-work-1-EvgeniaKr\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\evgen\\AppData\\Roaming\\NuGet\\NuGet.Config",
