@@ -4,12 +4,20 @@ using System.Text;
 
 namespace ConsoleApp1
 {
-    class circle : ellips
+    class Circle : Ellips
     {
-        public virtual void Func()
-        {
+        public int radius;
 
-            Console.WriteLine("circle(10, 10, 10)");
+        public Circle(int x1, int y1, int r) : base(x1, y1, r, r)
+        {
+        }
+        
+
+        public override string name() { return "Circle"; }
+        public override void printf()
+        {
+            Console.WriteLine(
+                $"{name()} ({x},{y},{radius})");
         }
     }
 }

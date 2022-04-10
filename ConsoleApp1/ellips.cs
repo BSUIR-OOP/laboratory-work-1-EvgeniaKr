@@ -4,12 +4,27 @@ using System.Text;
 
 namespace ConsoleApp1
 {
-    class ellips : rectangle
+    class Ellips : ListF
     {
-        public virtual void Func()
-        {
+        private protected int FA, TA;
+        private protected int x, y;
 
-            Console.WriteLine("ellips(10, 10, 10)");
+        public Ellips(int x1, int y1, int a1, int a2)
+        {
+          
+            FA = a1;
+            TA = a2;
+            x = x1;
+            y = y1;
         }
+
+
+        public override string name() { return "Ellips"; }
+        public override void printf()
+        {
+            Console.WriteLine(
+                $"{name()} ({x},{y})({FA},{TA})");
+        }
+        
     }
 }
