@@ -6,7 +6,8 @@ namespace ConsoleApp1
 {
     class Circle : Ellips
     {
-        public int radius;
+        
+        public int radius { get { return FA; } set { FA = value; TA = value; } }
 
         public Circle(int x1, int y1, int r) : base(x1, y1, r, r)
         {

@@ -4,11 +4,14 @@ using System.Text;
 
 namespace ConsoleApp1
 {
-    class Ellips : ListF
+    class Ellips : Figure
     {
         private protected int FA, TA;
         private protected int x, y;
-
+        public virtual int F { get { return FA; } set { FA = value; } }
+        public virtual int T { get { return TA; } set { TA = value; } }
+        public int px { get { return x; } set { x = value; } }
+        public int py { get { return y; } set { y = value; } }
         public Ellips(int x1, int y1, int a1, int a2)
         {
           

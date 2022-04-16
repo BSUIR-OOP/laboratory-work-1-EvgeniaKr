@@ -12,19 +12,19 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var list = new List<ListF>();
-            var figure = new List<ListF>()
+            var list = new List<Figure>();
+            var figures = new List<Figure>()
             {
             new Circle(50,50,10),
             new Ellips(50,50,20,40),
             new Line(10,10,60,60),
             new Polygon(40,40,40,80,80,80,80,40),
-            new Reckv(40,40,40,80,80,80,80,40),
-            new Rectangle(40,40,80,80),
+            new Rhombus(40,40,40,80,80,80,80,40),
+            new Rectangle(40,40,80,80,80,40,40,80),
            
             };
 
-            foreach (var f in figure)
+            foreach (var f in figures)
             {
                 f.printf();
             }
